@@ -17,7 +17,7 @@ def Proceso1(id):
         thread_1 = True
 
         if thread_2:
-            thread_1 = True
+            thread_1 = False
 
             time.sleep(0.001)
             thread_1 = True

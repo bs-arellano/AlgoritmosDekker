@@ -36,7 +36,7 @@ def Proceso2(id):
 
     while not completado:
 
-        time.sleep(0.2)
+        #time.sleep(0.2)
         thread_2 = True
         time.sleep(0.1)
 

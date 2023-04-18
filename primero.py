@@ -1,6 +1,5 @@
 '''
-Problema: Si el proceso 1 requiere del 2 para ejecutarse se quedara bloqueado permanentemente
-pues el segundo solo se jecuta una vez que el primero acabe
+Problema: Los procesos largos castigan a los procesos cortos
 '''
 
 import threading
@@ -16,7 +15,7 @@ def Proceso1(id):
         else:
             print(f"Ejecutando proceso {id}")
             time.sleep(2)
-            #exit()
+            #time.sleep(10)
             print(f"Proceso {id} finalizado")
             completado=True
             turno=2

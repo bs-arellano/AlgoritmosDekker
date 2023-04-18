@@ -23,7 +23,7 @@ def Proceso1(id):
         if thread_2:
             if turno!=1:
                 thread_1 = False
-                while(truno!=1):
+                while(turno!=1):
                     pass
                 thread_1 = True
         else:
