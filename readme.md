@@ -23,6 +23,3 @@ If you would like to contribute to the AlgoritmosDekker project, you can do so b
 5. Open a pull request.
 ## License
 The AlgoritmosDekker project is released under the MIT License.
-
-## Contact
-If you have any questions about the AlgoritmosDekker project, you can contact me at brayanarellano1605@gmail.com.
